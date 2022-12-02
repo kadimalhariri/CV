@@ -1,0 +1,215 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    display: flex;
+    justify-content: center;
+    padding: 30px 0;
+}
+main {
+    border: 3px solid blueviolet;
+    width: 700px;
+    height: 800px;
+}
+.pic-info {
+    width: 300px;
+    height: 800px;
+    background-color: blueviolet;
+    float: left;
+}
+.other {
+    height: 800px;
+    width: 400px;
+    float: right;
+}
+.profile-pic {
+    width: 73.5%;
+    padding: 0 40px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.profile-pic img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+.about {
+    width: 73.5%;
+    padding: 0 40px;
+    color: white;
+    height: 150px;
+    position: relative;
+}
+.about::after {
+    position: absolute;
+    content: '';
+    width: 220px;
+    height: 0.1em;
+    bottom: 15px;
+    left: 28;
+    background-color: white;
+    color: blueviolet;
+}
+.about h3 {
+    margin-bottom: 15px;
+}
+.about p {
+    line-height: 1.5em;
+    
+}
+.skills {
+    color: white;
+    width: 73.5%;
+    padding: 0 40px;
+    height: 210px;
+}
+.skills h3 {
+    margin-bottom: 15px;
+}
+.skills h5 {
+    margin: 3px 0;
+}
+.skills::after {
+    position: absolute;
+    content: '';
+    width: 220px;
+    height: 0.1em;
+    bottom: 193px;
+    left: 28;
+    background-color: white;
+    color: blueviolet;
+}
+.language {
+    color: white;
+    width: 73.5%;
+    padding: 0 40px;
+    height: 120px;
+}
+
+.language h3 {
+    margin-bottom: 15px;
+}
+.language h5 {
+    margin: 8px 0;
+}
+.language::after {
+    position: absolute;
+    content: '';
+    width: 220px;
+    height: 0.1em;
+    bottom: 69px;
+    left: 28;
+    background-color: white;
+    color: blueviolet;
+}
+.social-media {
+    color: white;
+    width: 73.5%;
+    padding: 0 40px;
+    height: 120px;
+}
+.social-media h3 {
+    margin-bottom: 15px;
+}
+.social-media li {
+    list-style: none;
+    margin: 8px 0;
+}
+.social-media i:hover {
+    cursor: pointer;
+}
+.name {
+    height: 100px;
+    width: 80%;
+    padding: 50px 40px 0 40px;
+}
+.name h1 {
+    font-size: 40px; 
+}
+.name span {
+    color: blueviolet;
+}
+.name h2 {
+    color: gray;
+}
+.info {
+    width: 100%;
+    background-color: blueviolet;
+    color: white;
+    height: 25px;
+  
+}
+.info ul {
+    display: flex;
+    justify-content: space-around;
+}
+.info li {
+    font-size: 11px;
+    list-style: none;
+    margin-top: 4px;
+    
+}
+.fa-solid {
+    margin: 2px 5px;
+}
+.info-about-me {
+    /* background-color: greenyellow; */
+    width: 80%;
+    padding: 0 40px;
+    height: 625PX;
+}
+.work {
+    width: 100%;
+    /* background-color: red; */
+    color: black;
+    height: 210px;
+    padding-top: 20px;
+}
+.work h2 {
+    color: blueviolet;
+}
+.work p {
+    margin: 10px;
+}
+.work img {
+    width: 100px;
+}
+.work span {
+    color: blueviolet;
+}
+.education span {
+    color: blueviolet;
+}
+.power-skills span {
+    color: blueviolet;
+}
+.education {
+    width: 100%;
+    /* background-color: green; */
+    color: black;
+    height: 187px;
+}
+.education h2 {
+    color: blueviolet;
+    margin-bottom: 10px;
+}
+.education p {
+    margin-bottom: 7px;
+}
+.power-skills p {
+    margin-bottom: 7px;
+}
+.power-skills {
+    width: 100%;
+    /* background-color: aqua; */
+    color: black;
+    height: 188px;
+}
+.power-skills h2 {
+    color: blueviolet;
+    margin-bottom: 10px;
+}
