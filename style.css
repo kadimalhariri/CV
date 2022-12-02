@@ -44,16 +44,7 @@ main {
     height: 150px;
     position: relative;
 }
-.about::after {
-    position: absolute;
-    content: '';
-    width: 220px;
-    height: 0.1em;
-    bottom: 15px;
-    left: 28;
-    background-color: white;
-    color: blueviolet;
-}
+
 .about h3 {
     margin-bottom: 15px;
 }
@@ -73,16 +64,7 @@ main {
 .skills h5 {
     margin: 3px 0;
 }
-.skills::after {
-    position: absolute;
-    content: '';
-    width: 220px;
-    height: 0.1em;
-    bottom: 193px;
-    left: 28;
-    background-color: white;
-    color: blueviolet;
-}
+
 .language {
     color: white;
     width: 73.5%;
@@ -96,16 +78,7 @@ main {
 .language h5 {
     margin: 8px 0;
 }
-.language::after {
-    position: absolute;
-    content: '';
-    width: 220px;
-    height: 0.1em;
-    bottom: 69px;
-    left: 28;
-    background-color: white;
-    color: blueviolet;
-}
+
 .social-media {
     color: white;
     width: 73.5%;
@@ -212,4 +185,13 @@ main {
 .power-skills h2 {
     color: blueviolet;
     margin-bottom: 10px;
+}
+.about hr {
+    margin-top: 8px;
+}
+.skills hr {
+    margin-top: 15px;
+}
+.language hr {
+    margin-top: 11px;
 }
