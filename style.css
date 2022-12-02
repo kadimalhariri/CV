@@ -169,6 +169,8 @@ main {
 .education h2 {
     color: blueviolet;
     margin-bottom: 10px;
+    font-size: 20PX;
+    margin-top: 14PX;
 }
 .education p {
     margin-bottom: 7px;
