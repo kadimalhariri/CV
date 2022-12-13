@@ -30,12 +30,18 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
 }
+
 .profile-pic img {
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    border: 2px solid white;
+    border: 5px solid white;
+    transition: 2s;
+}
+.profile-pic img:hover {
+    transform: scale(1.1);
 }
 .about {
     width: 73.5%;
