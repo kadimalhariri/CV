@@ -8,14 +8,15 @@ body {
     padding: 30px 0;
 }
 main {
-    border: 3px solid blueviolet;
+    border: 3px solid #01FD70;
     width: 700px;
     height: 800px;
 }
 .pic-info {
     width: 300px;
     height: 800px;
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
+    background: linear-gradient(to right, #00aaff, #00ff6c);
     float: left;
 }
 .other {
@@ -119,7 +120,7 @@ main {
 }
 .info {
     width: 100%;
-    background-color: blueviolet;
+    background: linear-gradient(to right, #00aaff, #00ff6c);
     color: white;
     height: 25px;
   
